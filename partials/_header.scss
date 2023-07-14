@@ -19,7 +19,7 @@ i{
 
 .header-icons a:hover{
     i{
-      animation: translateY 0.4s infinite alternate;
+      animation: translateY 0.8s infinite alternate;
       color: $red-light;
     }
 }
@@ -62,8 +62,8 @@ i{
         justify-content: center;
 
         i{
-            margin-top: 16px;
-            font-size: 34px;
+          margin-top: 16px;
+          font-size: 34px;
         }
     }
 
@@ -76,5 +76,4 @@ i{
     .header-button{
         display: none;
     }
- 
 }
