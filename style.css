@@ -43,7 +43,7 @@ i {
   border-radius: 4px;
   color: #FFF;
   background-color: transparent;
-  transition: background-color 0.8;
+  transition: background-color 0.8s;
 }
 
 .header-button:hover {
@@ -128,7 +128,6 @@ i {
   color: #FFF;
   background-color: #d94140;
   border: 0;
-  border-radius: 8px;
   font-size: 18px;
   font-weight: 600;
   margin: 14px 0;
@@ -146,9 +145,9 @@ i {
     transform: scale(1.07);
   }
 }
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
   .hero {
-    min-width: 60vh;
+    min-height: 60vh;
   }
   .hero h1 {
     font-size: 34px;
@@ -202,8 +201,8 @@ i {
 .services {
   background-color: #FFF;
   color: #232224;
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 54px 14px;
@@ -228,7 +227,7 @@ i {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  padding: 0px 44px 34px 44px;
+  padding: 0 44px 34px 44px;
 }
 
 .haircut {
@@ -269,7 +268,7 @@ i {
   cursor: default;
 }
 
-@media screen and (max-whidth: 768px) {
+@media screen and (max-width: 768px) {
   .haircuts {
     flex-direction: column;
   }
@@ -300,7 +299,7 @@ i {
   z-index: 99;
 }
 .btn-whatsapp img {
-  max-width: 70px;
+  max-width: 74px;
   transition: transform 0.4s;
 }
 .btn-whatsapp img:hover {
@@ -319,7 +318,7 @@ i {
   background-color: #232224;
   color: #FFF;
   opacity: 0;
-  transition: opacity 0.5;
+  transition: opacity 0.4s;
 }
 
 .btn-whatsapp:hover .tooltip-text {
@@ -341,7 +340,7 @@ body {
 }
 
 button {
-  font-family: "sora", sans-serif;
+  font-family: "Sora", sans-serif;
   cursor: pointer;
 }
 
